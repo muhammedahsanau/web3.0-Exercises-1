@@ -2,13 +2,11 @@
 // invite to dinner. Then use your list to print a message to each person, inviting them to dinner.
 
 const guests:string[] = ["Ali", "Junaid", "Kamraan"];
-const invitations:string[] =[ " I’m sending you my warmest invitation to this dinner party. Your presence is all that is required to make this party a success." ,
-                            " On [Date], we will host a dinner party at our lovely home. We are looking for your presence to make it memorable!",
-                            " All we request is your presence as we celebrate the night of [Date] with our friends and loved ones. Please come and share in our happiness!"]
+const invitation:string = " I’m sending you my warmest invitation to this dinner party. Your presence is all that is required to make this party a success." 
 
 for (let index = 0; index < guests.length; index++) {
     const guest = guests[index];
 
     // printing one by one 
-    console.log("hi "+ guest + invitations[index]);
+    console.log("hi "+ guest + invitation);
 }
