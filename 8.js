@@ -3,4 +3,4 @@
 // console.log(5 + 3)
 // _____________________________________________
 // Your output should simply be four lines with the number 8 appearing once on each line.
-console.log("\n", 5 + 3, "\n", 5 + 3, "\n", 5 + 3, "\n", 5 + 3);
+console.log("\n", "console.log(5 + 3);", "\n");
